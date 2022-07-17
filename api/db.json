@@ -1,0 +1,58 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"categoryId": 2,
+			"productName": "Chai",
+			"quantityPerUnit": "48",
+			"unitPrice": "23",
+			"unitsInStock": 53
+		},
+		{
+			"id": 2,
+			"categoryId": 1,
+			"productName": "Chang",
+			"quantityPerUnit": "24",
+			"unitPrice": "21",
+			"unitsInStock": 17
+		},
+		{
+			"id": 4,
+			"categoryId": 1,
+			"productName": "Chef Anton's Cajun Seasoning",
+			"quantityPerUnit": "48",
+			"unitPrice": "222",
+			"unitsInStock": 53
+		},
+		{
+			"id": 5,
+			"categoryId": 2,
+			"productName": "Chef Anton's Gumbo Mix",
+			"quantityPerUnit": "12",
+			"unitPrice": "25",
+			"unitsInStock": 120
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"categoryName":"Beverage",
+			"seoUrl": "beverage"
+		},
+		{
+			"id": 2,
+			"categoryName":"Condiments",
+			"seoUrl": "condiments"
+		},
+		{
+			"id": 3,
+			"categoryName":"Confections",
+			"seoUrl": "confections"
+		},
+		{
+			"id": 4,
+			"categoryName":"Dairy Products",
+			"seoUrl": "dairy-products"
+		}
+	]
+}

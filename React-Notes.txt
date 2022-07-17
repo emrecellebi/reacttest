@@ -1,0 +1,23 @@
+npm install -g create-react-app			/// global olarak react kurulumu
+npm install -g json-server				/// json-server yükler
+npx create-react-app reacttest			/// react projesini oluştur
+npm install reactstrap					/// reactstrap yükle 
+npm install boostrap					/// boostrap yükle 
+npm install alertifyjs					/// alertifyjs yükle 
+npm install react-router-dom			/// react-router-dom yükle
+npm install react-router-dom@5.2.0		/// react-router-dom yükle seçili olan versiyonu yükle
+
+npm start								/// projeyi başlat
+
+json-server --watch db.json
+
+Heroku için build
+1 Heroku üzeride bir tane Create New App oluştur
+2 NodeJS projene npm install -g heroku yükle daha önce yüklendiyse gerekyok
+3 ilk olarak cmd üzeride (heroku login) komutunu çalıştır
+4 git init
+5 heroku git:remote -a my-reactt
+6 git add .
+7 git commit -am "First deploy"
+7.5 git checkout -b main
+8 git push heroku main
