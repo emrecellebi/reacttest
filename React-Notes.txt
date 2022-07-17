@@ -6,6 +6,8 @@ npm install boostrap					/// boostrap yükle
 npm install alertifyjs					/// alertifyjs yükle 
 npm install react-router-dom			/// react-router-dom yükle
 npm install react-router-dom@5.2.0		/// react-router-dom yükle seçili olan versiyonu yükle
+npm install redux						/// redux tükle
+npm install react-redux						/// react-redux tükle
 
 npm start								/// projeyi başlat
 
